@@ -102,7 +102,11 @@ body {
   justify-content: center;
   align-items: center;
   transform: translateY(35%);
-} 
+  background-image: url('assets/bg-pattern-2.svg');
+  background-repeat: no-repeat;
+  background-position: 52% -60%;
+  background-size: 280px;
+}
 
 .dark-bg .phone {
   position: absolute;
@@ -111,10 +115,10 @@ body {
   z-index: 3;
 }
 
-.dark-bg .pattern1 {
+/* .dark-bg .pattern1 {
   z-index: 1;
   align-self: flex-start;
-}
+} */
 
 .card {
   position: relative;
@@ -264,6 +268,68 @@ body {
     --lh-body-1: 1.75rem;
     --lh-body-2: 1.625rem;
   }
+
+  .main-header {
+    padding-inline: 2.4375rem;
+    margin-block-start: 3.875rem;
+  }
+
+  .hero-section {
+    padding-inline-start: 2.4375rem;
+    padding-inline-end: 13.4375rem;
+    margin-block-start: 5.9375rem;
+  }
+
+  .hero-text {
+    margin-block-start: 1.75rem;
+  }
+
+  .cta-section {
+    padding-inline-start: 2.0625rem;
+    padding-inline-end: 2.4375rem;
+    margin-block-start: 1rem;
+  }
+
+  .dark-bg .phone {
+    position: absolute;
+    width: 270.21px;
+    transform: translateY(-30%) translateX(-60%);
+    z-index: 3;
+    opacity: 0;
+  }
+
+  .dark-bg {
+    overflow: hidden;
+    background-position: 52% -10%;
+    background-size: 280px;
+  }
+
+  .card {
+    width: 399px;
+    transform: translateY(-45%) translateX(62%);
+    opacity: 0;
+  }
+
+  .card-title {
+    padding-inline-start: 3rem;
+    padding-inline-end: 3.0625rem;
+  }
+
+  .card-text {
+    padding-inline-start: 3rem;
+    padding-inline-end: 3.0625rem;
+  }
+
+  .price {
+    padding-inline: 3.375rem;
+  }
+
+  .btns {
+    padding-inline-start: 3.375rem;
+    padding-inline-end: 3.0625rem;
+  }
+
+
 }
 
 @media screen and (min-width: 1439px) {
