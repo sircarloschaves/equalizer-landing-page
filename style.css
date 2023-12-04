@@ -55,6 +55,9 @@ body {
   min-height: 100vh;
   font-family: var(--ff-body);
   background-color: var(--clr-ne-light);
+  background-image: url('assets/bg-main-mobile.png');
+  background-position: 0 -20%;
+  background-repeat: no-repeat;
 }
 
 .main-header {
@@ -89,6 +92,7 @@ body {
 
 .cta-section {
   margin-block-start: -3rem;
+  outline: 1px solid red;
 }
 
 .dark-bg {
@@ -104,21 +108,16 @@ body {
   transform: translateY(35%);
   background-image: url('assets/bg-pattern-2.svg');
   background-repeat: no-repeat;
-  background-position: 52% -60%;
+  background-position: 52% 0;
   background-size: 280px;
 }
 
-.dark-bg .phone {
+.phone {
   position: absolute;
   width: 208.97px;
   transform: translateY(-42%);
   z-index: 3;
 }
-
-/* .dark-bg .pattern1 {
-  z-index: 1;
-  align-self: flex-start;
-} */
 
 .card {
   position: relative;
@@ -283,53 +282,6 @@ body {
   .hero-text {
     margin-block-start: 1.75rem;
   }
-
-  .cta-section {
-    padding-inline-start: 2.0625rem;
-    padding-inline-end: 2.4375rem;
-    margin-block-start: 1rem;
-  }
-
-  .dark-bg .phone {
-    position: absolute;
-    width: 270.21px;
-    transform: translateY(-30%) translateX(-60%);
-    z-index: 3;
-    opacity: 0;
-  }
-
-  .dark-bg {
-    overflow: hidden;
-    background-position: 52% -10%;
-    background-size: 280px;
-  }
-
-  .card {
-    width: 399px;
-    transform: translateY(-45%) translateX(62%);
-    opacity: 0;
-  }
-
-  .card-title {
-    padding-inline-start: 3rem;
-    padding-inline-end: 3.0625rem;
-  }
-
-  .card-text {
-    padding-inline-start: 3rem;
-    padding-inline-end: 3.0625rem;
-  }
-
-  .price {
-    padding-inline: 3.375rem;
-  }
-
-  .btns {
-    padding-inline-start: 3.375rem;
-    padding-inline-end: 3.0625rem;
-  }
-
-
 }
 
 @media screen and (min-width: 1439px) {
