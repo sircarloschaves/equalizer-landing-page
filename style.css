@@ -403,6 +403,7 @@ body {
 
   .hero-text {
     padding-inline-end: 9rem;
+    margin-block-start: 2.5rem;
   }
 
   .cta-section {
