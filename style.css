@@ -421,6 +421,7 @@ body {
     position: absolute;
     width: 312px; 
     right: 58%;
+    top: -8%;
     z-index: 3;
   }
 
@@ -453,11 +454,12 @@ body {
   .btns {
     padding-inline-start: 3.375rem;
     padding-inline-end: 3.6875rem;
+    margin-block-start: 2.875rem;
   }
 
   .main-footer {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: 
     'logo footertext social';
     padding-inline: 10.3125rem;
@@ -467,8 +469,8 @@ body {
 
   .footer-text {
     margin-block-start: 0;
-    margin-inline-start: 8.5625rem;
-    padding-inline-end: 10rem;
+    margin-inline-start: 7.5rem;
+    justify-self: center;
   }
 
   .social {
