@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/equalizer-landing-page-responsive-with-media-queries-YCqK8_UI47](https://www.frontendmentor.io/solutions/equalizer-landing-page-responsive-with-media-queries-YCqK8_UI47)
+- Live Site URL: [https://sircarloschaves.github.io/equalizer-landing-page/](https://sircarloschaves.github.io/equalizer-landing-page/)
 
 ## My process
 
